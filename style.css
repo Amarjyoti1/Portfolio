@@ -112,7 +112,6 @@ nav ul li a:hover::after {
 }
 
 .about-col-2 p {
-  padding: 0 10px;
   font-size: 20px;
   line-height: 25px;
 }
@@ -133,7 +132,6 @@ nav ul li a:hover::after {
   cursor: pointer;
   position: relative;
 }
-
 .tab-links::after {
   content: "";
   width: 0;
@@ -419,17 +417,23 @@ form .btn2 {
     margin-top: 50px;
   }
   .about-col-2 p {
-    font-size: 15px;
+    font-size: 13px;
     line-height: 20px;
   }
   .tab-links {
+    margin-right: 0;
+  }
+  .tab-content ul li {
     font-size: 12px;
   }
   .tab-content ul li span {
-    font-size: 15px;
+    font-size: 10px;
   }
   .sub-title {
     font-size: 40px;
+  }
+  #services {
+    padding: 0;
   }
   .contact-left {
     flex-basis: 100%;
