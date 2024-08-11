@@ -161,8 +161,6 @@ nav ul li a:hover::after {
 }
 
 .tab-content {
-
-  width: 500px;
   display: none;
   padding: 6px 12px;
   font-family: arial
@@ -385,7 +383,7 @@ form .btn2 {
 }
 
 /* ------------------------css for small screen-------------------- */
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 576px) {
   .header {
     background-image: url("./images/bgimg.png");
     background-repeat: no-repeat;
@@ -411,7 +409,7 @@ form .btn2 {
   }
 
   .header-text {
-    margin-top: 55vh;
+    margin-top: 45vh;
     font-size: 20px;
   }
 
@@ -440,14 +438,6 @@ form .btn2 {
 
   .tab-links {
     margin-right: 0;
-  }
-
-  .tab-content ul li {
-    font-size: 12px;
-  }
-
-  .tab-content ul li span {
-    font-size: 10px;
   }
 
   .sub-title {
