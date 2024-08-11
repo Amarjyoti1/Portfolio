@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,153 +8,180 @@
     <link rel="stylesheet" href="./style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 </head>
+
 <body>
     <div class="header">
-      <div class="container">
-        <nav>
-            <img src="./images/logo.png" alt="logo" class="logo">
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#services">Services</a></li>
-                <li><a href="#portfolio">Portfolio</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
-        <div class="header-text">
-            <p>Web Development Intern</p>
-            <h1>Hi, I'm <span>Amarjyoti</span> <br> From India</h1>
+        <div class="container">
+            <nav>
+                <img src="./images/logo.png" alt="logo" class="logo">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="header-text">
+                <p>Web Designer</p>
+                <h1>Hi, I'm <span>Amarjyoti</span> <br> From India</h1>
+            </div>
         </div>
-      </div>
     </div>
     <!-- ----------------about------------- -->
     <div id="about">
         <div class="container">
-        <div class="row">
-        <div class="about-col-1">
-            <img src="./images/iimg.png" alt="img">
-        </div>
-        <div class="about-col-2">
-            <h1 class="sub-title">About Me</h1>
-            <p>Hey ,I'm Amarjyoti from India. I'm Pursuing Bachelor's of Technology in Computer Science and working as an intern at SEO Space Castle(mohali).</p>
-              <div class="tab-titles">
-              <div class="tab-content">
-                 <p class="tab-links">Skills</p>
-                <ul>
-                    <li><span>HTML</span><br>Version5</li>
-                    <li><span>CSS</span><br>Version3</li>
-                    <li><span>C,C++</span><br>Basic to Advance</li>
-                </ul>
-              </div>
-              <div class="tab-content">
-                 <p class="tab-links">Experience</p>
-                <ul>
-                    <li><span>2022</span><br> 2 Months C,C++ Training at A2IT(mohali)</li>
-                    <li><span>2024</span><br> 6 Months Web development Internship at SEO Space Castle(mohali) </li>
-                </ul>
-              </div>
-              <div class="tab-content">
-                 <p class="tab-links">Education</p>
-                <ul>
-                    <li><span>2017-2018</span><br>Matric</li>
-                    <li><span>2019-2020</span><br>Senior Secondary Education</li>
-                    <li><span>2020-2024</span><br>B.tech in Computer Science</li>
-                </ul>
-               </div>
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="./images/iimg.png" alt="img">
                 </div>
-             </div>
-          </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Hey ,I'm Amarjyoti from India. I'm Pursuing Bachelor's of Technology in Computer Science and
+                        working as an intern at SEO Space Castle(mohali).</p>
+
+                    <div class="tab-titles">
+                        <button class="tab-links starter" data-tab="tab1">Skills</button>
+                        <button class="tab-links" data-tab="tab2">Experience</button>
+                        <button class="tab-links" data-tab="tab3">Education</button>
+                    </div>
+
+                    <div id="tab1" class="tab-content">
+                        <ul>
+                            <li><span>HTML (HYPERTEXT MARKUP LANGUAGE)</span><br>Version5</li>
+                            <li><span>CSS (CASCADING STYLE SHEETS)</span><br>Version3</li>
+                            <li><span>Javascript</span><br>Latest Version</li>
+                        </ul>
+                    </div>
+
+                    <div id="tab2" class="tab-content">
+                        <ul>
+                            <li><span>45 Days C,C++ Training at A2IT(mohali)</span><br>2022 (july - sep)</li>
+                            <li><span>6 Months Web development Internship at SEO Space Castle(mohali)</span><br>2024
+                                (feb - aug)</li>
+                        </ul>
+                    </div>
+
+                    <div id="tab3" class="tab-content">
+
+                        <ul>
+                            <li><span>2017-2018 (Mount Shivalik Senior Secondary School Gaddiwal)</span><br>Matric</li>
+                            <li><span>2019-2020 (M.B.B.G.R.G.C. girls Senior Secondary School Mansowal)</span><br>Senior
+                                Secondary Education</li>
+                            <li><span>2020-2024 (Doaba group of colleges chhokran (Rahon).)</span><br>B.tech in Computer
+                                Science</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
         </div>
-     </div>
-     <!-- --------------------services-------------- -->
-     <div id="services">
+    </div>
+    <!-- --------------------services-------------- -->
+    <div id="services">
         <div class="container">
             <h1 class="sub-title">My Services</h1>
             <div class="services-list">
                 <div>
                     <i class="fa-solid fa-code"></i>
                     <h2>HTML</h2>
-                    <p>HTML stands for Hyper Text Markup Language. HTML is the standard markup language for creating Web pages. HTML describes the structure of a Web page.</p>
+                    <p>HTML stands for Hyper Text Markup Language. HTML is the standard markup language for creating Web
+                        pages. HTML describes the structure of a Web page.</p>
                     <a href="#">Learn more</a>
                 </div>
                 <div>
-                   <i class="fa-brands fa-css3"></i>
+                    <i class="fa-brands fa-css3"></i>
                     <h2>CSS</h2>
-                    <p>CSS is the acronym of “Cascading Style Sheets”. CSS is a computer language for laying out and structuring web pages (HTML or XML). </p>
+                    <p>CSS is the acronym of “Cascading Style Sheets”. CSS is a computer language for laying out and
+                        structuring web pages (HTML or XML). </p>
                     <a href="#">Learn more</a>
                 </div>
                 <div>
-                  <i class="fa-solid fa-globe"></i>
-                    <h2>C,C++</h2>
-                    <p>The C is a function-driven language because it is procedural programming. The C++ language, on the other hand, is object-driven because it is OOP (object-oriented programming).</p>
+                    <i class="fa-brands fa-js"></i>
+                    <h2>Javascript</h2>
+                    <p>JavaScript is a dynamic programming language that's used for web development, in web
+                        applications, for game development,
+                        and lots more. It allows you to implement dynamic features on web pages that cannot be done with
+                        only HTML and CSS.</p>
                     <a href="#">Learn more</a>
                 </div>
             </div>
         </div>
-     </div>
-     <!-- ----------Portfolio------------- -->
-     <div id="portfolio">
+    </div>
+    <!-- ----------Portfolio------------- -->
+    <div id="portfolio">
         <div class="container">
-             <h1 class="sub-title">My Work</h1>
-             <div class="work-list">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
                 <div class="work">
                     <img src="./images/img1.avif" alt="img">
                     <div class="layer">
                         <h3>Web Design</h3>
-                        <p>Web design refers to the design of websites. It usually refers to the user experience aspects of website development rather than software development. </p>
-                        <a href="https://amarjyoti1.github.io/greenheartorganics/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        <p>Web design refers to the design of websites. It usually refers to the user experience aspects
+                            of website development rather than software development. </p>
+                        <a href="https://amarjyoti1.github.io/greenheartorganics/"><i
+                                class="fa-solid fa-arrow-up-right-from-square"></i></a>
                     </div>
                 </div>
-                 <div class="work">
+                <div class="work">
                     <img src="./images/img2.jpg" alt="img">
                     <div class="layer">
                         <h3>Clone Design</h3>
-                        <p>Cloning is the process of duplicating an image or graphic element to create a new piece of artwork. </p>
-                        <a href="https://amarjyoti1.github.io/amazon/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        <p>Cloning is the process of duplicating an image or graphic element to create a new piece of
+                            artwork. </p>
+                        <a href="https://amarjyoti1.github.io/amazon/"><i
+                                class="fa-solid fa-arrow-up-right-from-square"></i></a>
                     </div>
                 </div>
-                 <div class="work">
+                <div class="work">
                     <img src="./images/img3.jpeg" alt="img">
                     <div class="layer">
                         <h3>Resume Design</h3>
                         <p>A strong resume can increase your chances of getting your first interview. </p>
-                        <a href="https://amarjyoti1.github.io/resume/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        <a href="https://amarjyoti1.github.io/resume/"><i
+                                class="fa-solid fa-arrow-up-right-from-square"></i></a>
                     </div>
                 </div>
-             </div>
-             <a href="#" class="btn">See More</a>
+            </div>
+            <a href="#" class="btn">See More</a>
         </div>
-     </div>
-     <!-- ----------contact-------- -->
-     <div id="contact">
+    </div>
+    <!-- ----------contact-------- -->
+    <div id="contact">
         <div class="container">
             <div class="row">
                 <div class="contact-left">
-                  <h1 class="sub-title">Contact me</h1>
-                  <p><i class="fa-solid fa-paper-plane"></i><a href="mailto:amarjyoti7502@gmail.com">amarjyoti7502@gmail.com</a></p>
-                  <p><i class="fa-solid fa-phone"></i><a href="tel:+919779122940">+919779122940</a></p>
-                  <div class="social-icons">
-                    <a href="https://www.instagram.com/itzrayat?igsh=MjBocWEyY2txcW8x"><i class="fa-brands fa-square-instagram"></i></a>
-                    <a href="https://github.com/Amarjyoti1"><i class="fa-brands fa-github"></i></i></a>
-                    <a href="https://t.me/contact/1710239727:kU-o3npD2_7r21uj"><i class="fa-brands fa-telegram"></i></a>
-                    <a href="https://www.linkedin.com/in/amarjyoti-00138a240?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="fa-brands fa-linkedin"></i></a>
-                  </div>
-                  <a href="./amarjyoti cv.pdf" class="btn btn2" download>Download CV</a>
+                    <h1 class="sub-title">Contact me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i><a
+                            href="mailto:amarjyoti7502@gmail.com">amarjyoti7502@gmail.com</a></p>
+                    <p><i class="fa-solid fa-phone"></i><a href="tel:+919779122940">+919779122940</a></p>
+                    <div class="social-icons">
+                        <a href="https://www.instagram.com/itzrayat?igsh=MjBocWEyY2txcW8x"><i
+                                class="fa-brands fa-square-instagram"></i></a>
+                        <a href="https://github.com/Amarjyoti1"><i class="fa-brands fa-github"></i></i></a>
+                        <a href="https://t.me/contact/1710239727:kU-o3npD2_7r21uj"><i
+                                class="fa-brands fa-telegram"></i></a>
+                        <a
+                            href="https://www.linkedin.com/in/amarjyoti-00138a240?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i
+                                class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                    <a href="./amarjyoti cv.pdf" class="btn btn2" download>Download CV</a>
                 </div>
                 <div class="contact-right">
                     <form action="">
                         <input type="text" name="Name" placeholder="Your Name" required>
                         <input type="email" name="email" placeholder="Your Email" required>
-                        <textarea name="Message" placeholder="Your Message"  rows="6"></textarea>
-                        <button  class="btn btn2" type="submit">Submit</button>
+                        <textarea name="Message" placeholder="Your Message" rows="6"></textarea>
+                        <button class="btn btn2" type="submit">Submit</button>
                     </form>
 
                 </div>
             </div>
         </div>
         <div class="copyright">
-            <p>Copyright &copy; Amarjyoti. Made with <i class="fa-solid fa-heart"></i> by SEO Space Castle</p>
+            <p>Copyright &copy; Amarjyoti. Made with <i class="fa-solid fa-heart"></i> by Amarjyoti</p>
         </div>
-     </div>
+    </div>
+    <script src="./script.js"></script>
 </body>
+
 </html>
